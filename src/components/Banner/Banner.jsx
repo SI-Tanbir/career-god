@@ -1,5 +1,5 @@
 
-
+import bannerimg from '../../assets/images/user.png'
 import React from 'react'
 
 const Banner = () => {
@@ -16,7 +16,7 @@ const Banner = () => {
         <button>Get Started</button>
         </div>
     <div >
-        <img src='' alt="" />
+        <img src='../' alt="" />
     </div>
 
     </div>
