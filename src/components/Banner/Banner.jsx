@@ -16,7 +16,7 @@ const Banner = () => {
         <button>Get Started</button>
         </div>
     <div >
-        <img src='../../../assets/images/user.png' alt="" />
+        <img src='' alt="" />
     </div>
 
     </div>

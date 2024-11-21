@@ -5,11 +5,14 @@ import React from 'react'
 
 const JobCatagory = () => {
   return (
-    <div className="flex mt-10  m-auto justify-center">
-      <p className="text-6xl"> Job Category List</p>
-    <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+    <div className="  m-auto " >
+      <p className="text-6xl text-center"> Job Category List</p>
+    <p className="text-center  font-light mt-4">Explore thousands of job opportunities with all the information you need. Its your future</p>
 
 {/* starting of card here */}
+
+<div className="flex mt-10  m-auto justify-center" >
+
 
 <div className="bg-[#7e8ffe5e] w-[311px] h-[243px] m-4">
   <div className="text-6xl bg-[#7e8ffe5e] p-4 "><MdOutlineManageAccounts /></div>
@@ -41,6 +44,12 @@ const JobCatagory = () => {
 <p>300 jobs Available</p>
 
 </div>
+</div>
+
+
+
+
+
 </div>
 
 
