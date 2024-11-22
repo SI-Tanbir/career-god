@@ -11,6 +11,7 @@ import Home from './components/Home.jsx';
 import ApliedJobs from './components/AppliedJobs/ApliedJobs.jsx';
 import ErrorPages from './components/ErrorPages./ErrorPages.jsx';
 import Banner from './components/Banner/Banner.jsx';
+import Statistics from './components/Statistics/Statistics.jsx';
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path:"/applied",
         element:<ApliedJobs></ApliedJobs>
+      },
+      {
+        path:"/statistics",
+        element:<Statistics></Statistics>
       }
     ]
   },
